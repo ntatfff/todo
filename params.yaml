@@ -1,8 +1,4 @@
-imageType:
-  Original: {}
-
+setting:
+  distances: [2]
 voxelSetting:
   kernelRadius: 2
-  maskedKernel: true
-  initValue: nan
-  voxelBatch: 1024
