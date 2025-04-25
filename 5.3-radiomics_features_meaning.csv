@@ -1,0 +1,94 @@
+Feature,Description
+original_firstorder_10Percentile,Cường độ nhỏ hơn 90% các voxel trong ROI.
+original_firstorder_90Percentile,Cường độ lớn hơn 90% các voxel trong ROI.
+original_firstorder_Energy,Tổng bình phương của tất cả giá trị cường độ voxel (biểu thị mức 'năng lượng').
+original_firstorder_Entropy,Độ hỗn loạn hoặc độ không đồng nhất trong phân phối cường độ.
+original_firstorder_InterquartileRange,Hiệu giữa phần tư thứ ba (Q3) và phần tư thứ nhất (Q1) của cường độ.
+original_firstorder_Kurtosis,Độ nhọn của phân phối cường độ (so với phân phối chuẩn).
+original_firstorder_Maximum,Giá trị cường độ lớn nhất trong ROI.
+original_firstorder_Mean,Giá trị cường độ trung bình trong ROI.
+original_firstorder_MeanAbsoluteDeviation,Trung bình khoảng cách tuyệt đối giữa từng voxel và giá trị trung bình.
+original_firstorder_Median,Trung vị của giá trị cường độ.
+original_firstorder_Minimum,Giá trị cường độ nhỏ nhất trong ROI.
+original_firstorder_Range,Hiệu giữa giá trị lớn nhất và nhỏ nhất.
+original_firstorder_RobustMeanAbsoluteDeviation,Trung bình khoảng cách tuyệt đối từ các voxel giữa phần tư 10% và 90% tới trung bình vùng này.
+original_firstorder_RootMeanSquared,Căn bậc hai của trung bình bình phương giá trị voxel.
+original_firstorder_Skewness,Độ lệch của phân phối cường độ (lệch trái hay phải).
+original_firstorder_TotalEnergy,"Energy x số voxel, thể hiện năng lượng tổng cộng trong ROI."
+original_firstorder_Uniformity,Tổng bình phương của xác suất phân phối giá trị voxel (cao nếu các voxel tương tự nhau).
+original_firstorder_Variance,Độ phân tán cường độ quanh trung bình.
+original_glcm_Autocorrelation,Độ tương quan giữa các voxel lân cận.
+original_glcm_ClusterProminence,Đo mức độ cực đoan của nhóm giá trị đồng nhất.
+original_glcm_ClusterShade,Độ lệch của các nhóm giá trị so với trung bình.
+original_glcm_ClusterTendency,Mức độ mà các voxel có xu hướng tạo thành nhóm tương tự.
+original_glcm_Contrast,Độ tương phản cường độ giữa các voxel lân cận.
+original_glcm_Correlation,Tương quan thống kê giữa các voxel.
+original_glcm_DifferenceAverage,Trung bình của sự khác biệt giữa các cặp voxel.
+original_glcm_DifferenceEntropy,Entropy của sự khác biệt giữa các cặp voxel.
+original_glcm_DifferenceVariance,Phương sai của sự khác biệt giữa các cặp voxel.
+original_glcm_Id,Mức đồng nhất (Inverse Difference).
+original_glcm_Idm,Mức đồng nhất được cải tiến (Inverse Difference Moment).
+original_glcm_Idmn,Phiên bản chuẩn hóa của IDM.
+original_glcm_Idn,Phiên bản chuẩn hóa của ID.
+original_glcm_Imc1,Thông tin tương hỗ giữa voxel và hàng xóm.
+original_glcm_Imc2,"Phiên bản thứ hai của IMC, dùng log2."
+original_glcm_InverseVariance,"Giá trị đảo của phương sai, nhấn mạnh các cặp voxel gần giống nhau."
+original_glcm_JointAverage,Giá trị trung bình của ma trận đồng xuất hiện.
+original_glcm_JointEnergy,Tổng bình phương xác suất trong GLCM (đồng nhất cao).
+original_glcm_JointEntropy,Entropy chung của phân phối cặp voxel.
+original_glcm_MaximumProbability,Xác suất cao nhất của một cặp giá trị xuất hiện cùng nhau.
+original_glcm_MCC,Hệ số tương quan tối đa trong GLCM.
+original_glcm_SumAverage,Trung bình của tổng các giá trị cặp voxel.
+original_glcm_SumEntropy,Entropy của tổng các giá trị cặp voxel.
+original_glcm_SumSquares,Phương sai theo tổng của các giá trị trong GLCM.
+original_gldm_DependenceEntropy,Entropy của phân phối độ phụ thuộc (sự hỗn loạn của các mối quan hệ phụ thuộc giữa voxel).
+original_gldm_DependenceNonUniformity,Mức độ không đồng nhất của các mối quan hệ phụ thuộc.
+original_gldm_DependenceNonUniformityNormalized,Chuẩn hóa của mức độ không đồng nhất phụ thuộc.
+original_gldm_DependenceVariance,Phương sai của các mức phụ thuộc.
+original_gldm_GrayLevelNonUniformity,Mức độ không đồng nhất của các mức xám.
+original_gldm_GrayLevelVariance,Phương sai của mức xám trong các nhóm phụ thuộc.
+original_gldm_HighGrayLevelEmphasis,Nhấn mạnh các voxel có mức xám cao.
+original_gldm_LargeDependenceEmphasis,Nhấn mạnh các vùng có mức phụ thuộc lớn.
+original_gldm_LargeDependenceHighGrayLevelEmphasis,Nhấn mạnh vùng có mức phụ thuộc lớn và mức xám cao.
+original_gldm_LargeDependenceLowGrayLevelEmphasis,Nhấn mạnh vùng có mức phụ thuộc lớn và mức xám thấp.
+original_gldm_LowGrayLevelEmphasis,Nhấn mạnh các voxel có mức xám thấp.
+original_gldm_SmallDependenceEmphasis,Nhấn mạnh các vùng có mức phụ thuộc nhỏ.
+original_gldm_SmallDependenceHighGrayLevelEmphasis,Nhấn mạnh vùng có mức phụ thuộc nhỏ và mức xám cao.
+original_gldm_SmallDependenceLowGrayLevelEmphasis,Nhấn mạnh vùng có mức phụ thuộc nhỏ và mức xám thấp.
+original_glrlm_GrayLevelNonUniformity,Mức không đồng nhất của các mức xám trong các đoạn chạy.
+original_glrlm_GrayLevelNonUniformityNormalized,Chuẩn hóa của sự không đồng nhất mức xám.
+original_glrlm_GrayLevelVariance,Phương sai của các mức xám trong đoạn chạy.
+original_glrlm_HighGrayLevelRunEmphasis,Nhấn mạnh đoạn chạy với mức xám cao.
+original_glrlm_LongRunEmphasis,Nhấn mạnh các đoạn chạy dài.
+original_glrlm_LongRunHighGrayLevelEmphasis,Nhấn mạnh các đoạn chạy dài với mức xám cao.
+original_glrlm_LongRunLowGrayLevelEmphasis,Nhấn mạnh các đoạn chạy dài với mức xám thấp.
+original_glrlm_LowGrayLevelRunEmphasis,Nhấn mạnh đoạn chạy với mức xám thấp.
+original_glrlm_RunEntropy,Entropy của phân phối chiều dài đoạn chạy.
+original_glrlm_RunLengthNonUniformity,Mức không đồng nhất của chiều dài đoạn chạy.
+original_glrlm_RunLengthNonUniformityNormalized,Chuẩn hóa của mức không đồng nhất độ dài đoạn chạy.
+original_glrlm_RunPercentage,Tỉ lệ số đoạn chạy trên tổng số voxel trong ROI.
+original_glrlm_RunVariance,Phương sai của chiều dài đoạn chạy.
+original_glrlm_ShortRunEmphasis,Nhấn mạnh các đoạn chạy ngắn.
+original_glrlm_ShortRunHighGrayLevelEmphasis,Nhấn mạnh đoạn chạy ngắn có mức xám cao.
+original_glrlm_ShortRunLowGrayLevelEmphasis,Nhấn mạnh đoạn chạy ngắn có mức xám thấp.
+original_glszm_GrayLevelNonUniformity,Mức không đồng nhất của các mức xám trong vùng đồng nhất.
+original_glszm_GrayLevelNonUniformityNormalized,Chuẩn hóa của sự không đồng nhất mức xám.
+original_glszm_GrayLevelVariance,Phương sai của các mức xám trong vùng đồng nhất.
+original_glszm_HighGrayLevelZoneEmphasis,Nhấn mạnh các vùng đồng nhất có mức xám cao.
+original_glszm_LargeAreaEmphasis,Nhấn mạnh vùng đồng nhất lớn.
+original_glszm_LargeAreaHighGrayLevelEmphasis,Nhấn mạnh vùng đồng nhất lớn có mức xám cao.
+original_glszm_LargeAreaLowGrayLevelEmphasis,Nhấn mạnh vùng đồng nhất lớn có mức xám thấp.
+original_glszm_LowGrayLevelZoneEmphasis,Nhấn mạnh các vùng đồng nhất có mức xám thấp.
+original_glszm_SizeZoneNonUniformity,Mức không đồng nhất kích thước vùng đồng nhất.
+original_glszm_SizeZoneNonUniformityNormalized,Chuẩn hóa của không đồng nhất kích thước vùng.
+original_glszm_SmallAreaEmphasis,Nhấn mạnh vùng đồng nhất nhỏ.
+original_glszm_SmallAreaHighGrayLevelEmphasis,Nhấn mạnh vùng nhỏ có mức xám cao.
+original_glszm_SmallAreaLowGrayLevelEmphasis,Nhấn mạnh vùng nhỏ có mức xám thấp.
+original_glszm_ZoneEntropy,Entropy phân bố vùng đồng nhất.
+original_glszm_ZonePercentage,Tỉ lệ số vùng đồng nhất trên tổng số voxel.
+original_glszm_ZoneVariance,Phương sai của kích thước vùng đồng nhất.
+original_ngtdm_Busyness,Mức độ thay đổi nhanh của cường độ giữa voxel và lân cận.
+original_ngtdm_Coarseness,"Độ thô của hình ảnh, cao khi thay đổi giữa voxel và hàng xóm là nhỏ."
+original_ngtdm_Complexity,Độ phức tạp cường độ giữa voxel và hàng xóm.
+original_ngtdm_Contrast,Tương phản giữa voxel trung tâm và lân cận.
+original_ngtdm_Strength,Mức độ cấu trúc có tổ chức trong ảnh.
