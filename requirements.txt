@@ -5,3 +5,8 @@ pandas==1.2.3
 matplotlib
 tensorflow_decision_forests
 scikit-learn
+monai
+torchio
+nibabel
+tensorflow
+tensorflow_datasets
