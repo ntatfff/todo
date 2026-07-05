@@ -2,13 +2,13 @@
 CPU times: user 10min 31s, sys: 4.68 s, total: 10min 35s
 
 Classification report:
-               precision    recall  f1-score   support
-                                                      
-           0     0.9871    0.8752    0.9278     84503
-           1     0.3062    0.8284    0.4471      5617
-    accuracy                         0.8723     90120
-   macro avg     0.6467    0.8518    0.6875     90120
-weighted avg     0.9447    0.8723    0.8979     90120
+|     #       |  precision |   recall | f1-score |  support |
+|    ---      |    ---     |   ---    |   ---    |    ---   |
+|           0 |    0.9871  |  0.8752  |  0.9278  |   84503 |
+|           1 |    0.3062  |  0.8284  |  0.4471  |    5617 |
+|    accuracy |            |          |  0.8723  |   90120 |
+|   macro avg |    0.6467  |  0.8518  |  0.6875  |   90120 |
+|weighted avg |    0.9447  |  0.8723  |  0.8979  |   90120 |
 
 
 ---

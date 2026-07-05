@@ -1,0 +1,47 @@
+import papermill as pm
+
+# Định nghĩa danh sách notebook kèm theo tham số riêng cho từng file
+tasks = [
+    {
+        "input": "SVM.Tensorflow.ipynb",
+        "output": "output/SVM.100.firstorder.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/firstorder/kernel5-radius5/100.dataset.csv"}
+    },
+    {
+        "input": "SVM.Tensorflow.ipynb",
+        "output": "output/SVM.100.glcm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/glcm/kernel5-radius5/100.dataset.csv"}
+    },
+    {
+        "input": "SVM.Tensorflow.ipynb",
+        "output": "output/SVM.100.gldm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/gldm/kernel5-radius5/100.dataset.csv"}
+    },
+    {
+        "input": "SVM.Tensorflow.ipynb",
+        "output": "output/SVM.100.glrlm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/glrlm/kernel5-radius5/100.dataset.csv"}
+    },
+    {
+        "input": "SVM.Tensorflow.ipynb",
+        "output": "output/SVM.100.glszm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/glszm/kernel5-radius5/100.dataset.csv"}
+    },
+    {
+        "input": "SVM.Tensorflow.ipynb",
+        "output": "output/SVM.100.ngtdm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/ngtdm/kernel5-radius5/100.dataset.csv"}
+    }
+]
+
+# Chạy tuần tự các notebook với tham số tương ứng
+for task in tasks:
+    print(f"Đang chạy {task['input']} với tham số {task['params']}...")
+    
+    pm.execute_notebook(
+        input_path=task["input"],
+        output_path=task["output"],
+        parameters=task["params"]  # Truyền tham số tại đây
+    )
+
+    print(f"Hoàn thành {task['input']}\n")
