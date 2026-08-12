@@ -4,54 +4,64 @@ import papermill as pm
 tasks = [
     {
         "input": "GradientBoostedTreesModel.Tensorflow.ipynb",
-        "output": "output/GradientBoostedTreesModel.100.firstorder.Tensorflow.ipynb",
-        "params": {"datasetPath": "dataset/firstorder/kernel5-radius5/100.dataset.csv"}
+        "output": "output/kernel4/GradientBoostedTreesModel.1.firstorder.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/firstorder/kernel4-radius4/dataset.1p.csv"}
     },
     {
         "input": "GradientBoostedTreesModel.Tensorflow.ipynb",
-        "output": "output/GradientBoostedTreesModel.200.firstorder.Tensorflow.ipynb",
-        "params": {"datasetPath": "dataset/firstorder/kernel5-radius5/200.dataset.csv"}
+        "output": "output/kernel4/GradientBoostedTreesModel.1.glcm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/glcm/kernel4-radius4/dataset.1p.csv"}
     },
     {
         "input": "GradientBoostedTreesModel.Tensorflow.ipynb",
-        "output": "output/GradientBoostedTreesModel.300.firstorder.Tensorflow.ipynb",
-        "params": {"datasetPath": "dataset/firstorder/kernel5-radius5/300.dataset.csv"}
+        "output": "output/kernel4/GradientBoostedTreesModel.1.gldm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/gldm/kernel4-radius4/dataset.1p.csv"}
     },
     {
         "input": "GradientBoostedTreesModel.Tensorflow.ipynb",
-        "output": "output/GradientBoostedTreesModel.400.firstorder.Tensorflow.ipynb",
-        "params": {"datasetPath": "dataset/firstorder/kernel5-radius5/400.dataset.csv"}
+        "output": "output/kernel4/GradientBoostedTreesModel.1.glrlm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/glrlm/kernel4-radius4/dataset.1p.csv"}
     },
     {
         "input": "GradientBoostedTreesModel.Tensorflow.ipynb",
-        "output": "output/GradientBoostedTreesModel.500.firstorder.Tensorflow.ipynb",
-        "params": {"datasetPath": "dataset/firstorder/kernel5-radius5/500.dataset.csv"}
+        "output": "output/kernel4/GradientBoostedTreesModel.1.glszm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/glszm/kernel4-radius4/dataset.1p.csv"}
     },
     {
-        "input": "RandomForest.Tensorflow.ipynb",
-        "output": "output/RandomForest.100.firstorder.Tensorflow.ipynb",
-        "params": {"datasetPath": "dataset/firstorder/kernel5-radius5/100.dataset.csv"}
+        "input": "GradientBoostedTreesModel.Tensorflow.ipynb",
+        "output": "output/kernel4/GradientBoostedTreesModel.1.ngtdm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/ngtdm/kernel4-radius4/dataset.1p.csv"}
     },
     {
-        "input": "RandomForest.Tensorflow.ipynb",
-        "output": "output/RandomForest.200.firstorder.Tensorflow.ipynb",
-        "params": {"datasetPath": "dataset/firstorder/kernel5-radius5/200.dataset.csv"}
+        "input": "GradientBoostedTreesModel.Tensorflow.ipynb",
+        "output": "output/kernel6/GradientBoostedTreesModel.1.firstorder.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/firstorder/kernel6-radius6/dataset.1p.csv"}
     },
     {
-        "input": "RandomForest.Tensorflow.ipynb",
-        "output": "output/RandomForest.300.firstorder.Tensorflow.ipynb",
-        "params": {"datasetPath": "dataset/firstorder/kernel5-radius5/300.dataset.csv"}
+        "input": "GradientBoostedTreesModel.Tensorflow.ipynb",
+        "output": "output/kernel6/GradientBoostedTreesModel.1.glcm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/glcm/kernel6-radius6/dataset.1p.csv"}
     },
     {
-        "input": "RandomForest.Tensorflow.ipynb",
-        "output": "output/RandomForest.400.firstorder.Tensorflow.ipynb",
-        "params": {"datasetPath": "dataset/firstorder/kernel5-radius5/400.dataset.csv"}
+        "input": "GradientBoostedTreesModel.Tensorflow.ipynb",
+        "output": "output/kernel6/GradientBoostedTreesModel.1.gldm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/gldm/kernel6-radius6/dataset.1p.csv"}
     },
     {
-        "input": "RandomForest.Tensorflow.ipynb",
-        "output": "output/RandomForest.500.firstorder.Tensorflow.ipynb",
-        "params": {"datasetPath": "dataset/firstorder/kernel5-radius5/500.dataset.csv"}
-    }
+        "input": "GradientBoostedTreesModel.Tensorflow.ipynb",
+        "output": "output/kernel6/GradientBoostedTreesModel.1.glrlm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/glrlm/kernel6-radius6/dataset.1p.csv"}
+    },
+    {
+        "input": "GradientBoostedTreesModel.Tensorflow.ipynb",
+        "output": "output/kernel6/GradientBoostedTreesModel.1.glszm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/glszm/kernel6-radius6/dataset.1p.csv"}
+    },
+    {
+        "input": "GradientBoostedTreesModel.Tensorflow.ipynb",
+        "output": "output/kernel6/GradientBoostedTreesModel.1.ngtdm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/ngtdm/kernel6-radius6/dataset.1p.csv"}
+    },
 ]
 
 # Chạy tuần tự các notebook với tham số tương ứng
