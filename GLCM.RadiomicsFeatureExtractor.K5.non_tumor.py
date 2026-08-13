@@ -26,7 +26,7 @@ def featureExtractor(fileId):
 
   for featureName, featureValue in six.iteritems(featureMap):
     if isinstance(featureValue, sitk.Image):
-      fileFolder = './dataset/glcm/kernel5-radius5/non_tumor/%s' % (fileId)
+      fileFolder = './dataset/glcm/kernel5/non_tumor/%s' % (fileId)
       if path.exists(fileFolder) == False:
         os.mkdir(fileFolder)
       sitk.WriteImage(featureValue, '%s/%s.nrrd' % (fileFolder, featureName))
@@ -34,7 +34,7 @@ def featureExtractor(fileId):
     # else:
     #   print('%s: %s' % (featureName, featureValue))
 
-monitorFilePath = './dataset/glcm/kernel5-radius5/non_tumor.monitor.csv'
+monitorFilePath = './dataset/glcm/kernel5/non_tumor.monitor.csv'
 monitor = pd.read_csv(monitorFilePath, index_col='no')
 for i, row in monitor.iterrows():
   if row['done'] != 0:

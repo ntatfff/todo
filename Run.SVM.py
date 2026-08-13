@@ -4,34 +4,64 @@ import papermill as pm
 tasks = [
     {
         "input": "SVM.Tensorflow.ipynb",
-        "output": "output/SVM.100.firstorder.Tensorflow.ipynb",
-        "params": {"datasetPath": "dataset/firstorder/kernel5-radius5/100.dataset.csv"}
+        "output": "output/kernel3/SVM.1.firstorder.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/firstorder/kernel3/1.dataset.csv"}
     },
     {
         "input": "SVM.Tensorflow.ipynb",
-        "output": "output/SVM.100.glcm.Tensorflow.ipynb",
-        "params": {"datasetPath": "dataset/glcm/kernel5-radius5/100.dataset.csv"}
+        "output": "output/kernel3/SVM.1.glcm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/glcm/kernel3/1.dataset.csv"}
     },
     {
         "input": "SVM.Tensorflow.ipynb",
-        "output": "output/SVM.100.gldm.Tensorflow.ipynb",
-        "params": {"datasetPath": "dataset/gldm/kernel5-radius5/100.dataset.csv"}
+        "output": "output/kernel3/SVM.1.gldm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/gldm/kernel3/1.dataset.csv"}
     },
     {
         "input": "SVM.Tensorflow.ipynb",
-        "output": "output/SVM.100.glrlm.Tensorflow.ipynb",
-        "params": {"datasetPath": "dataset/glrlm/kernel5-radius5/100.dataset.csv"}
+        "output": "output/kernel3/SVM.1.glrlm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/glrlm/kernel3/1.dataset.csv"}
     },
     {
         "input": "SVM.Tensorflow.ipynb",
-        "output": "output/SVM.100.glszm.Tensorflow.ipynb",
-        "params": {"datasetPath": "dataset/glszm/kernel5-radius5/100.dataset.csv"}
+        "output": "output/kernel3/SVM.1.glszm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/glszm/kernel3/1.dataset.csv"}
     },
     {
         "input": "SVM.Tensorflow.ipynb",
-        "output": "output/SVM.100.ngtdm.Tensorflow.ipynb",
-        "params": {"datasetPath": "dataset/ngtdm/kernel5-radius5/100.dataset.csv"}
-    }
+        "output": "output/kernel3/SVM.1.ngtdm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/ngtdm/kernel3/1.dataset.csv"}
+    },
+    {
+        "input": "SVM.Tensorflow.ipynb",
+        "output": "output/kernel5/SVM.1.firstorder.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/firstorder/kernel5/1.dataset.csv"}
+    },
+    {
+        "input": "SVM.Tensorflow.ipynb",
+        "output": "output/kernel5/SVM.1.glcm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/glcm/kernel5/1.dataset.csv"}
+    },
+    {
+        "input": "SVM.Tensorflow.ipynb",
+        "output": "output/kernel5/SVM.1.gldm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/gldm/kernel5/1.dataset.csv"}
+    },
+    {
+        "input": "SVM.Tensorflow.ipynb",
+        "output": "output/kernel5/SVM.1.glrlm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/glrlm/kernel5/1.dataset.csv"}
+    },
+    {
+        "input": "SVM.Tensorflow.ipynb",
+        "output": "output/kernel5/SVM.1.glszm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/glszm/kernel5/1.dataset.csv"}
+    },
+    {
+        "input": "SVM.Tensorflow.ipynb",
+        "output": "output/kernel5/SVM.1.ngtdm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/ngtdm/kernel5/1.dataset.csv"}
+    },
 ]
 
 # Chạy tuần tự các notebook với tham số tương ứng

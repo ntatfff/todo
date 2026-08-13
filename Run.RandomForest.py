@@ -4,63 +4,63 @@ import papermill as pm
 tasks = [
     {
         "input": "RandomForest.Tensorflow.ipynb",
-        "output": "output/kernel4/RandomForest.1.firstorder.Tensorflow.ipynb",
-        "params": {"datasetPath": "dataset/firstorder/kernel4-radius4/1.dataset.csv"}
+        "output": "output/kernel3/RandomForest.1.firstorder.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/firstorder/kernel3/1.dataset.csv"}
     },
     {
         "input": "RandomForest.Tensorflow.ipynb",
-        "output": "output/kernel4/RandomForest.1.glcm.Tensorflow.ipynb",
-        "params": {"datasetPath": "dataset/glcm/kernel4-radius4/1.dataset.csv"}
+        "output": "output/kernel3/RandomForest.1.glcm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/glcm/kernel3/1.dataset.csv"}
     },
     {
         "input": "RandomForest.Tensorflow.ipynb",
-        "output": "output/kernel4/RandomForest.1.gldm.Tensorflow.ipynb",
-        "params": {"datasetPath": "dataset/gldm/kernel4-radius4/1.dataset.csv"}
+        "output": "output/kernel3/RandomForest.1.gldm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/gldm/kernel3/1.dataset.csv"}
     },
     {
         "input": "RandomForest.Tensorflow.ipynb",
-        "output": "output/kernel4/RandomForest.1.glrlm.Tensorflow.ipynb",
-        "params": {"datasetPath": "dataset/glrlm/kernel4-radius4/1.dataset.csv"}
+        "output": "output/kernel3/RandomForest.1.glrlm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/glrlm/kernel3/1.dataset.csv"}
     },
     {
         "input": "RandomForest.Tensorflow.ipynb",
-        "output": "output/kernel4/RandomForest.1.glszm.Tensorflow.ipynb",
-        "params": {"datasetPath": "dataset/glszm/kernel4-radius4/1.dataset.csv"}
+        "output": "output/kernel3/RandomForest.1.glszm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/glszm/kernel3/1.dataset.csv"}
     },
     {
         "input": "RandomForest.Tensorflow.ipynb",
-        "output": "output/kernel4/RandomForest.1.ngtdm.Tensorflow.ipynb",
-        "params": {"datasetPath": "dataset/ngtdm/kernel4-radius4/1.dataset.csv"}
+        "output": "output/kernel3/RandomForest.1.ngtdm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/ngtdm/kernel3/1.dataset.csv"}
     },
     {
         "input": "RandomForest.Tensorflow.ipynb",
-        "output": "output/kernel6/RandomForest.1.firstorder.Tensorflow.ipynb",
-        "params": {"datasetPath": "dataset/firstorder/kernel6-radius6/1.dataset.csv"}
+        "output": "output/kernel5/RandomForest.1.firstorder.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/firstorder/kernel5/1.dataset.csv"}
     },
     {
         "input": "RandomForest.Tensorflow.ipynb",
-        "output": "output/kernel6/RandomForest.1.glcm.Tensorflow.ipynb",
-        "params": {"datasetPath": "dataset/glcm/kernel6-radius6/1.dataset.csv"}
+        "output": "output/kernel5/RandomForest.1.glcm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/glcm/kernel5/1.dataset.csv"}
     },
     {
         "input": "RandomForest.Tensorflow.ipynb",
-        "output": "output/kernel6/RandomForest.1.gldm.Tensorflow.ipynb",
-        "params": {"datasetPath": "dataset/gldm/kernel6-radius6/1.dataset.csv"}
+        "output": "output/kernel5/RandomForest.1.gldm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/gldm/kernel5/1.dataset.csv"}
     },
     {
         "input": "RandomForest.Tensorflow.ipynb",
-        "output": "output/kernel6/RandomForest.1.glrlm.Tensorflow.ipynb",
-        "params": {"datasetPath": "dataset/glrlm/kernel6-radius6/1.dataset.csv"}
+        "output": "output/kernel5/RandomForest.1.glrlm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/glrlm/kernel5/1.dataset.csv"}
     },
     {
         "input": "RandomForest.Tensorflow.ipynb",
-        "output": "output/kernel6/RandomForest.1.glszm.Tensorflow.ipynb",
-        "params": {"datasetPath": "dataset/glszm/kernel6-radius6/1.dataset.csv"}
+        "output": "output/kernel5/RandomForest.1.glszm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/glszm/kernel5/1.dataset.csv"}
     },
     {
         "input": "RandomForest.Tensorflow.ipynb",
-        "output": "output/kernel6/RandomForest.1.ngtdm.Tensorflow.ipynb",
-        "params": {"datasetPath": "dataset/ngtdm/kernel6-radius6/1.dataset.csv"}
+        "output": "output/kernel5/RandomForest.1.ngtdm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/ngtdm/kernel5/1.dataset.csv"}
     },
 ]
 
