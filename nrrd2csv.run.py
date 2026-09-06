@@ -34,6 +34,36 @@ tasks = [
     },
     {
         "input": "nrrd2csv.ipynb",
+        "output": "nrrd2csv.firstorder.kernel4.ipynb",
+        "params": {"rootPath": "dataset/firstorder/kernel4/"}
+    },
+    {
+        "input": "nrrd2csv.ipynb",
+        "output": "nrrd2csv.glcm.kernel4.ipynb",
+        "params": {"rootPath": "dataset/glcm/kernel4/"}
+    },
+    {
+        "input": "nrrd2csv.ipynb",
+        "output": "nrrd2csv.gldm.kernel4.ipynb",
+        "params": {"rootPath": "dataset/gldm/kernel4/"}
+    },
+    {
+        "input": "nrrd2csv.ipynb",
+        "output": "nrrd2csv.glrlm.kernel4.ipynb",
+        "params": {"rootPath": "dataset/glrlm/kernel4/"}
+    },
+    {
+        "input": "nrrd2csv.ipynb",
+        "output": "nrrd2csv.glszm.kernel4.ipynb",
+        "params": {"rootPath": "dataset/glszm/kernel4/"}
+    },
+    {
+        "input": "nrrd2csv.ipynb",
+        "output": "nrrd2csv.ngtdm.kernel4.ipynb",
+        "params": {"rootPath": "dataset/ngtdm/kernel4/"}
+    },
+    {
+        "input": "nrrd2csv.ipynb",
         "output": "nrrd2csv.firstorder.kernel5.ipynb",
         "params": {"rootPath": "dataset/firstorder/kernel5/"}
     },
@@ -61,6 +91,36 @@ tasks = [
         "input": "nrrd2csv.ipynb",
         "output": "nrrd2csv.ngtdm.kernel5.ipynb",
         "params": {"rootPath": "dataset/ngtdm/kernel5/"}
+    },
+    {
+        "input": "nrrd2csv.ipynb",
+        "output": "nrrd2csv.firstorder.kernel6.ipynb",
+        "params": {"rootPath": "dataset/firstorder/kernel6/"}
+    },
+    {
+        "input": "nrrd2csv.ipynb",
+        "output": "nrrd2csv.glcm.kernel6.ipynb",
+        "params": {"rootPath": "dataset/glcm/kernel6/"}
+    },
+    {
+        "input": "nrrd2csv.ipynb",
+        "output": "nrrd2csv.gldm.kernel6.ipynb",
+        "params": {"rootPath": "dataset/gldm/kernel6/"}
+    },
+    {
+        "input": "nrrd2csv.ipynb",
+        "output": "nrrd2csv.glrlm.kernel6.ipynb",
+        "params": {"rootPath": "dataset/glrlm/kernel6/"}
+    },
+    {
+        "input": "nrrd2csv.ipynb",
+        "output": "nrrd2csv.glszm.kernel6.ipynb",
+        "params": {"rootPath": "dataset/glszm/kernel6/"}
+    },
+    {
+        "input": "nrrd2csv.ipynb",
+        "output": "nrrd2csv.ngtdm.kernel6.ipynb",
+        "params": {"rootPath": "dataset/ngtdm/kernel6/"}
     },
 ]
 

@@ -1,0 +1,37 @@
+notebook,class,kernel,model,accuracy,precision,recall,f1,mcc,roc_auc,pr_auc,confusion_matrix,support_0,support_1
+GradientBoostedTreesModel.1.firstorder.Tensorflow.ipynb,firstorder,kernel6,GradientBoostedTreesModel,0.876,0.5294,0.5294,0.5294,0.458,0.8976,0.716,"[[104 8]
+ [8 9]]",112,17
+GradientBoostedTreesModel.1.glcm.Tensorflow.ipynb,glcm,kernel6,GradientBoostedTreesModel,0.9535,0.8,0.8889,0.8421,0.8165,0.9374,0.8969,"[[107 4]
+ [2 16]]",111,18
+GradientBoostedTreesModel.1.gldm.Tensorflow.ipynb,gldm,kernel6,GradientBoostedTreesModel,0.9147,0.5714,0.8571,0.6857,0.6562,0.9783,0.8556,"[[106 9]
+ [2 12]]",115,14
+GradientBoostedTreesModel.1.glrlm.Tensorflow.ipynb,glrlm,kernel6,GradientBoostedTreesModel,0.969,0.8333,0.8333,0.8333,0.8162,0.9957,0.9614,"[[115 2]
+ [2 10]]",117,12
+GradientBoostedTreesModel.1.glszm.Tensorflow.ipynb,glszm,kernel6,GradientBoostedTreesModel,0.938,0.7857,0.6875,0.7333,0.7004,0.958,0.7456,"[[110 3]
+ [5 11]]",113,16
+GradientBoostedTreesModel.1.ngtdm.Tensorflow.ipynb,ngtdm,kernel6,GradientBoostedTreesModel,0.9225,0.7059,0.7059,0.7059,0.6612,0.9417,0.8141,"[[107 5]
+ [5 12]]",112,17
+RandomForest.1.firstorder.Tensorflow.ipynb,firstorder,kernel6,RandomForest,0.8837,0.5556,0.5882,0.5714,0.5045,0.9244,0.7575,"[[104 8]
+ [7 10]]",112,17
+RandomForest.1.glcm.Tensorflow.ipynb,glcm,kernel6,RandomForest,0.969,0.85,0.9444,0.8947,0.8783,0.9785,0.9335,"[[108 3]
+ [1 17]]",111,18
+RandomForest.1.gldm.Tensorflow.ipynb,gldm,kernel6,RandomForest,0.938,0.65,0.9286,0.7647,0.7457,0.9798,0.8824,"[[108 7]
+ [1 13]]",115,14
+RandomForest.1.glrlm.Tensorflow.ipynb,glrlm,kernel6,RandomForest,0.9612,0.7692,0.8333,0.8,0.7793,0.9886,0.925,"[[114 3]
+ [2 10]]",117,12
+RandomForest.1.glszm.Tensorflow.ipynb,glszm,kernel6,RandomForest,0.9302,0.8182,0.5625,0.6667,0.643,0.9416,0.6761,"[[111 2]
+ [7 9]]",113,16
+RandomForest.1.ngtdm.Tensorflow.ipynb,ngtdm,kernel6,RandomForest,0.938,0.7647,0.7647,0.7647,0.729,0.9559,0.8088,"[[108 4]
+ [4 13]]",112,17
+SVM.1.firstorder.Tensorflow.ipynb,firstorder,kernel6,SVM,0.9302,0.8333,0.5882,0.6897,0.6642,0.9543,0.8176,"[[110 2]
+ [7 10]]",112,17
+SVM.1.glcm.Tensorflow.ipynb,glcm,kernel6,SVM,0.8605,0.0,0.0,0.0,0.0,0.507,0.1747,"[[111 0]
+ [18 0]]",111,18
+SVM.1.gldm.Tensorflow.ipynb,gldm,kernel6,SVM,0.8992,0.5294,0.6429,0.5806,0.5272,0.9304,0.6101,"[[107 8]
+ [5 9]]",115,14
+SVM.1.glrlm.Tensorflow.ipynb,glrlm,kernel6,SVM,0.9457,0.6923,0.75,0.72,0.6907,0.9758,0.86,"[[113 4]
+ [3 9]]",117,12
+SVM.1.glszm.Tensorflow.ipynb,glszm,kernel6,SVM,0.876,0.0,0.0,0.0,0.0,0.7013,0.2381,"[[113 0]
+ [16 0]]",113,16
+SVM.1.ngtdm.Tensorflow.ipynb,ngtdm,kernel6,SVM,0.8682,0.0,0.0,0.0,0.0,0.5095,0.1961,"[[112 0]
+ [17 0]]",112,17

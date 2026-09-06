@@ -34,6 +34,36 @@ tasks = [
     },
     {
         "input": "SVM.Tensorflow.ipynb",
+        "output": "output/kernel4/SVM.1.firstorder.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/firstorder/kernel4/1.dataset.csv"}
+    },
+    {
+        "input": "SVM.Tensorflow.ipynb",
+        "output": "output/kernel4/SVM.1.glcm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/glcm/kernel4/1.dataset.csv"}
+    },
+    {
+        "input": "SVM.Tensorflow.ipynb",
+        "output": "output/kernel4/SVM.1.gldm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/gldm/kernel4/1.dataset.csv"}
+    },
+    {
+        "input": "SVM.Tensorflow.ipynb",
+        "output": "output/kernel4/SVM.1.glrlm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/glrlm/kernel4/1.dataset.csv"}
+    },
+    {
+        "input": "SVM.Tensorflow.ipynb",
+        "output": "output/kernel4/SVM.1.glszm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/glszm/kernel4/1.dataset.csv"}
+    },
+    {
+        "input": "SVM.Tensorflow.ipynb",
+        "output": "output/kernel4/SVM.1.ngtdm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/ngtdm/kernel4/1.dataset.csv"}
+    },
+    {
+        "input": "SVM.Tensorflow.ipynb",
         "output": "output/kernel5/SVM.1.firstorder.Tensorflow.ipynb",
         "params": {"datasetPath": "dataset/firstorder/kernel5/1.dataset.csv"}
     },
@@ -61,6 +91,36 @@ tasks = [
         "input": "SVM.Tensorflow.ipynb",
         "output": "output/kernel5/SVM.1.ngtdm.Tensorflow.ipynb",
         "params": {"datasetPath": "dataset/ngtdm/kernel5/1.dataset.csv"}
+    },
+    {
+        "input": "SVM.Tensorflow.ipynb",
+        "output": "output/kernel6/SVM.1.firstorder.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/firstorder/kernel6/1.dataset.csv"}
+    },
+    {
+        "input": "SVM.Tensorflow.ipynb",
+        "output": "output/kernel6/SVM.1.glcm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/glcm/kernel6/1.dataset.csv"}
+    },
+    {
+        "input": "SVM.Tensorflow.ipynb",
+        "output": "output/kernel6/SVM.1.gldm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/gldm/kernel6/1.dataset.csv"}
+    },
+    {
+        "input": "SVM.Tensorflow.ipynb",
+        "output": "output/kernel6/SVM.1.glrlm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/glrlm/kernel6/1.dataset.csv"}
+    },
+    {
+        "input": "SVM.Tensorflow.ipynb",
+        "output": "output/kernel6/SVM.1.glszm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/glszm/kernel6/1.dataset.csv"}
+    },
+    {
+        "input": "SVM.Tensorflow.ipynb",
+        "output": "output/kernel6/SVM.1.ngtdm.Tensorflow.ipynb",
+        "params": {"datasetPath": "dataset/ngtdm/kernel6/1.dataset.csv"}
     },
 ]
 
