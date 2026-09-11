@@ -12,6 +12,7 @@ Process all .ipynb files under the provided folder path, extract the relevant ev
 Follow the skill’s rules for:
 - identifying the latest metrics-producing cell
 - extracting the expected metric fields,  confusion matrix and support values
+- extracting the CPU total time from `CPU times: ... total: <value> <unit>` when present
 - parsing class, kernel, and model from the filename
 - validating row counts and spot-checking the output
 - skipping notebooks that do not contain recognizable metrics without silently dropping them

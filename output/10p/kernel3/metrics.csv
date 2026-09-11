@@ -1,0 +1,43 @@
+notebook,class,kernel,model,accuracy,precision,recall,f1,mcc,roc_auc,pr_auc,confusion_matrix,support_0,support_1,cpu_total_time
+GradientBoostedTreesModel.all.ipynb,all,kernel3,GradientBoostedTreesModel,0.9629,0.7621,0.9105,0.8297,0.8131,0.9751,0.9129,"[[7760 251]
+ [79 804]]",8011,883,2 min
+GradientBoostedTreesModel.firstorder.ipynb,firstorder,kernel3,GradientBoostedTreesModel,0.9588,0.7552,0.8664,0.807,0.7864,0.9559,0.8805,"[[7763 248]
+ [118 765]]",8011,883,21.4 s
+GradientBoostedTreesModel.glcm.ipynb,glcm,kernel3,GradientBoostedTreesModel,0.9521,0.6968,0.9162,0.7916,0.7742,0.9684,0.8973,"[[7659 352]
+ [74 809]]",8011,883,46.7 s
+GradientBoostedTreesModel.gldm.ipynb,gldm,kernel3,GradientBoostedTreesModel,0.9632,0.7951,0.8482,0.8208,0.8009,0.9596,0.8825,"[[7818 193]
+ [134 749]]",8011,883,16.4 s
+GradientBoostedTreesModel.glrlm.ipynb,glrlm,kernel3,GradientBoostedTreesModel,0.963,0.8057,0.8267,0.8161,0.7956,0.9615,0.8777,"[[7835 176]
+ [153 730]]",8011,883,26.5 s
+GradientBoostedTreesModel.glszm.ipynb,glszm,kernel3,GradientBoostedTreesModel,0.9569,0.751,0.8471,0.7962,0.7739,0.9589,0.8723,"[[7763 248]
+ [135 748]]",8011,883,21.3 s
+GradientBoostedTreesModel.ngtdm.ipynb,ngtdm,kernel3,GradientBoostedTreesModel,0.9524,0.7328,0.8199,0.7739,0.7489,0.9482,0.8175,"[[7747 264]
+ [159 724]]",8011,883,10.4 s
+RandomForest.all.ipynb,all,kernel3,RandomForest,0.9675,0.9003,0.7565,0.8222,0.8081,0.9757,0.9064,"[[7937 74]
+ [215 668]]",8011,883,47.7 s
+RandomForest.firstorder.ipynb,firstorder,kernel3,RandomForest,0.9669,0.8761,0.7769,0.8235,0.8071,0.9553,0.8625,"[[7914 97]
+ [197 686]]",8011,883,30.6 s
+RandomForest.glcm.ipynb,glcm,kernel3,RandomForest,0.972,0.8847,0.8256,0.8541,0.8393,0.9744,0.9092,"[[7916 95]
+ [154 729]]",8011,883,29.7 s
+RandomForest.gldm.ipynb,gldm,kernel3,RandomForest,0.9668,0.8973,0.752,0.8182,0.8039,0.9642,0.8716,"[[7935 76]
+ [219 664]]",8011,883,27.2 s
+RandomForest.glrlm.ipynb,glrlm,kernel3,RandomForest,0.9655,0.883,0.752,0.8122,0.7965,0.956,0.8645,"[[7923 88]
+ [219 664]]",8011,883,27.3 s
+RandomForest.glszm.ipynb,glszm,kernel3,RandomForest,0.961,0.8671,0.7169,0.7849,0.7678,0.9591,0.8588,"[[7914 97]
+ [250 633]]",8011,883,27.6 s
+RandomForest.ngtdm.ipynb,ngtdm,kernel3,RandomForest,0.9564,0.8935,0.6365,0.7434,0.7327,0.947,0.8276,"[[7944 67]
+ [321 562]]",8011,883,25.9 s
+SVM.all.ipynb,all,kernel3,SVM,0.9195,0.5588,0.8992,0.6892,0.67,0.9592,0.7469,"[[7384 627]
+ [89 794]]",8011,883,1 min
+SVM.firstorder.ipynb,firstorder,kernel3,SVM,0.9613,0.8728,0.7146,0.7858,0.7694,0.9546,0.8382,"[[7919 92]
+ [252 631]]",8011,883,42.9 s
+SVM.glcm.ipynb,glcm,kernel3,SVM,0.9006,0.4997,0.9309,0.6503,0.6379,0.9583,0.7636,"[[7188 823]
+ [61 822]]",8011,883,22.9 s
+SVM.gldm.ipynb,gldm,kernel3,SVM,0.9672,0.9289,0.7248,0.8142,0.8039,0.9661,0.8953,"[[7962 49]
+ [243 640]]",8011,883,36.1 s
+SVM.glrlm.ipynb,glrlm,kernel3,SVM,0.9668,0.9273,0.7225,0.8122,0.8018,0.9613,0.8935,"[[7961 50]
+ [245 638]]",8011,883,34.7 s
+SVM.glszm.ipynb,glszm,kernel3,SVM,0.964,0.9134,0.7044,0.7954,0.7839,0.961,0.8857,"[[7952 59]
+ [261 622]]",8011,883,33.9 s
+SVM.ngtdm.ipynb,ngtdm,kernel3,SVM,0.9145,0.8,0.1857,0.3015,0.3599,0.9355,0.6619,"[[7970 41]
+ [719 164]]",8011,883,48 s

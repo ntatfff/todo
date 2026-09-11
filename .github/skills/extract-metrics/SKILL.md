@@ -46,10 +46,14 @@ weighted avg     0.9404    0.9383    0.9392       811
 - From the Sklearn binary metrics section, extract accuracy, precision, recall, f1, mcc, roc_auc, and pr_auc.
 - From the Confusion matrix section, extract the full matrix.
 - From the Classification report section, extract support_0 and support_1.
+- From a CPU timing line, extract the value and unit immediately after `total:`.
+  - Example: `CPU times: user 22.4 s, sys: 490 ms, total: 22.9 s` -> `cpu_total_time=22.9 s`
+  - Match both decimal and integer values and preserve the reported unit (`s`, `ms`, `us`, or `min`).
+  - If the notebook has no recognizable CPU timing line, leave `cpu_total_time` empty and report that it was unavailable.
 - From the filename, extract the radiomics class, the kernel, and the model name.
   - Example: output/kernel3/GradientBoostedTreesModel.1.firstorder.Tensorflow.ipynb -> class=firstorder, kernel=kernel3, model=GradientBoostedTreesModel
 - Create a CSV with this column order:
-  class, kernel, model, accuracy, precision, recall, f1, mcc, roc_auc, pr_auc, support_0, support_1, confusion_matrix
+  class, kernel, model, accuracy, precision, recall, f1, mcc, roc_auc, pr_auc, support_0, support_1, confusion_matrix, cpu_total_time
 - Each row should correspond to one notebook's metrics.
 - Save the CSV in the same directory as the notebook, with the name metrics.csv.
 - If a metrics.csv already exists, replace it.

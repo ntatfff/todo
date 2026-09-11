@@ -23,11 +23,21 @@ METRIC_KEYS = [
 
 
 def parse_metrics_from_text(text):
-    """Return dict of metrics, confusion matrix string, support_0/support_1 if found."""
+    """Return metrics, confusion matrix, supports, and CPU total time if found."""
     metrics = {}
     cm = None
     support_0 = None
     support_1 = None
+    cpu_total_time = None
+
+    # Extract the total from IPython timing output, preserving its unit.
+    m = re.search(
+        r"\btotal\s*:\s*([0-9]*\.?[0-9]+)\s*(min|ms|us|s)\b",
+        text,
+        re.IGNORECASE,
+    )
+    if m:
+        cpu_total_time = f"{m.group(1)} {m.group(2)}"
 
     # Extract key: value lines like "accuracy: 0.9383"
     for key in METRIC_KEYS:
@@ -59,7 +69,7 @@ def parse_metrics_from_text(text):
         if m1:
             support_1 = int(m1.group(1))
 
-    return metrics, cm, support_0, support_1
+    return metrics, cm, support_0, support_1, cpu_total_time
 
 
 def extract_from_notebook(nb_path: Path):
@@ -70,9 +80,9 @@ def extract_from_notebook(nb_path: Path):
         print(f"Failed to read {nb_path}: {e}")
         return None
 
-    # Search cells from last to first for printed metrics block
+    all_texts = []
     cells = nb.get("cells", [])
-    for cell in reversed(cells):
+    for cell in cells:
         outputs = cell.get("outputs", [])
         for out in outputs:
             # outputs may have 'text' or 'data' with 'text/plain'
@@ -90,15 +100,25 @@ def extract_from_notebook(nb_path: Path):
 
             if not text:
                 continue
+            all_texts.append(text)
 
-            if "Sklearn binary metrics" in text or re.search(r"^accuracy:\s*[0-9]", text, re.IGNORECASE | re.MULTILINE):
-                metrics, cm, s0, s1 = parse_metrics_from_text(text)
-                return {
-                    "metrics": metrics,
-                    "confusion_matrix": cm,
-                    "support_0": s0,
-                    "support_1": s1,
-                }
+    cpu_total_time = None
+    for text in all_texts:
+        _, _, _, _, parsed_cpu_total_time = parse_metrics_from_text(text)
+        if parsed_cpu_total_time is not None:
+            cpu_total_time = parsed_cpu_total_time
+
+    # Search cells from last to first for the latest printed metrics block.
+    for text in reversed(all_texts):
+        if "Sklearn binary metrics" in text or re.search(r"^accuracy:\s*[0-9]", text, re.IGNORECASE | re.MULTILINE):
+            metrics, cm, s0, s1, _ = parse_metrics_from_text(text)
+            return {
+                "metrics": metrics,
+                "confusion_matrix": cm,
+                "support_0": s0,
+                "support_1": s1,
+                "cpu_total_time": cpu_total_time,
+            }
 
     return None
 
@@ -149,6 +169,7 @@ def process_folder(folder: Path):
         "confusion_matrix",
         "support_0",
         "support_1",
+        "cpu_total_time",
     ]
 
     for nb in nbs:
@@ -173,6 +194,7 @@ def process_folder(folder: Path):
             "confusion_matrix": result.get("confusion_matrix"),
             "support_0": result.get("support_0"),
             "support_1": result.get("support_1"),
+            "cpu_total_time": result.get("cpu_total_time"),
         }
 
         d = nb.parent
