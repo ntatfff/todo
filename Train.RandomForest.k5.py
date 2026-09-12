@@ -4,51 +4,51 @@ import papermill as pm
 tasks = [
     {
         "input": "Train.RandomForest.ipynb",
-        "output": "./output/10p/kernel5/RandomForest.all.ipynb",
+        "output": "./output/mask5/10p/kernel5/RandomForest.all.ipynb",
         "params": {
-            "datasetPath": "dataset/10p/all/kernel5/",
+            "datasetPath": "dataset/mask5/10p/all/kernel5/",
         }
     },
     {
         "input": "Train.RandomForest.ipynb",
-        "output": "./output/10p/kernel5/RandomForest.firstorder.ipynb",
+        "output": "./output/mask5/10p/kernel5/RandomForest.firstorder.ipynb",
         "params": {
-            "datasetPath": "dataset/10p/firstorder/kernel5/",
+            "datasetPath": "dataset/mask5/10p/firstorder/kernel5/",
         }
     },
     {
         "input": "Train.RandomForest.ipynb",
-        "output": "./output/10p/kernel5/RandomForest.glcm.ipynb",
+        "output": "./output/mask5/10p/kernel5/RandomForest.glcm.ipynb",
         "params": {
-            "datasetPath": "dataset/10p/glcm/kernel5/",
+            "datasetPath": "dataset/mask5/10p/glcm/kernel5/",
         }
     },
     {
         "input": "Train.RandomForest.ipynb",
-        "output": "./output/10p/kernel5/RandomForest.gldm.ipynb",
+        "output": "./output/mask5/10p/kernel5/RandomForest.gldm.ipynb",
         "params": {
-            "datasetPath": "dataset/10p/gldm/kernel5/",
+            "datasetPath": "dataset/mask5/10p/gldm/kernel5/",
         }
     },
     {
         "input": "Train.RandomForest.ipynb",
-        "output": "./output/10p/kernel5/RandomForest.glrlm.ipynb",
+        "output": "./output/mask5/10p/kernel5/RandomForest.glrlm.ipynb",
         "params": {
-            "datasetPath": "dataset/10p/glrlm/kernel5/",
+            "datasetPath": "dataset/mask5/10p/glrlm/kernel5/",
         }
     },
     {
         "input": "Train.RandomForest.ipynb",
-        "output": "./output/10p/kernel5/RandomForest.glszm.ipynb",
+        "output": "./output/mask5/10p/kernel5/RandomForest.glszm.ipynb",
         "params": {
-            "datasetPath": "dataset/10p/glszm/kernel5/",
+            "datasetPath": "dataset/mask5/10p/glszm/kernel5/",
         }
     },
     {
         "input": "Train.RandomForest.ipynb",
-        "output": "./output/10p/kernel5/RandomForest.ngtdm.ipynb",
+        "output": "./output/mask5/10p/kernel5/RandomForest.ngtdm.ipynb",
         "params": {
-            "datasetPath": "dataset/10p/ngtdm/kernel5/",
+            "datasetPath": "dataset/mask5/10p/ngtdm/kernel5/",
         }
     },
 ]

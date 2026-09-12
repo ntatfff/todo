@@ -4,51 +4,51 @@ import papermill as pm
 tasks = [
     {
         "input": "Train.XGBoost.ipynb",
-        "output": "./output/10p/kernel4/XGBoost.all.ipynb",
+        "output": "./output/mask5/10p/kernel4/XGBoost.all.ipynb",
         "params": {
-            "datasetPath": "dataset/10p/all/kernel4/",
+            "datasetPath": "dataset/mask5/10p/all/kernel4/",
         }
     },
     {
         "input": "Train.XGBoost.ipynb",
-        "output": "./output/10p/kernel4/XGBoost.firstorder.ipynb",
+        "output": "./output/mask5/10p/kernel4/XGBoost.firstorder.ipynb",
         "params": {
-            "datasetPath": "dataset/10p/firstorder/kernel4/",
+            "datasetPath": "dataset/mask5/10p/firstorder/kernel4/",
         }
     },
     {
         "input": "Train.XGBoost.ipynb",
-        "output": "./output/10p/kernel4/XGBoost.glcm.ipynb",
+        "output": "./output/mask5/10p/kernel4/XGBoost.glcm.ipynb",
         "params": {
-            "datasetPath": "dataset/10p/glcm/kernel4/",
+            "datasetPath": "dataset/mask5/10p/glcm/kernel4/",
         }
     },
     {
         "input": "Train.XGBoost.ipynb",
-        "output": "./output/10p/kernel4/XGBoost.gldm.ipynb",
+        "output": "./output/mask5/10p/kernel4/XGBoost.gldm.ipynb",
         "params": {
-            "datasetPath": "dataset/10p/gldm/kernel4/",
+            "datasetPath": "dataset/mask5/10p/gldm/kernel4/",
         }
     },
     {
         "input": "Train.XGBoost.ipynb",
-        "output": "./output/10p/kernel4/XGBoost.glrlm.ipynb",
+        "output": "./output/mask5/10p/kernel4/XGBoost.glrlm.ipynb",
         "params": {
-            "datasetPath": "dataset/10p/glrlm/kernel4/",
+            "datasetPath": "dataset/mask5/10p/glrlm/kernel4/",
         }
     },
     {
         "input": "Train.XGBoost.ipynb",
-        "output": "./output/10p/kernel4/XGBoost.glszm.ipynb",
+        "output": "./output/mask5/10p/kernel4/XGBoost.glszm.ipynb",
         "params": {
-            "datasetPath": "dataset/10p/glszm/kernel4/",
+            "datasetPath": "dataset/mask5/10p/glszm/kernel4/",
         }
     },
     {
         "input": "Train.XGBoost.ipynb",
-        "output": "./output/10p/kernel4/XGBoost.ngtdm.ipynb",
+        "output": "./output/mask5/10p/kernel4/XGBoost.ngtdm.ipynb",
         "params": {
-            "datasetPath": "dataset/10p/ngtdm/kernel4/",
+            "datasetPath": "dataset/mask5/10p/ngtdm/kernel4/",
         }
     },
 ]

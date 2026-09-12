@@ -4,51 +4,51 @@ import papermill as pm
 tasks = [
     {
         "input": "Train.SVM.ipynb",
-        "output": "./output/10p/kernel4/SVM.all.ipynb",
+        "output": "./output/mask5/10p/kernel4/SVM.all.ipynb",
         "params": {
-            "datasetPath": "dataset/10p/all/kernel4/",
+            "datasetPath": "dataset/mask5/10p/all/kernel4/",
         }
     },
     {
         "input": "Train.SVM.ipynb",
-        "output": "./output/10p/kernel4/SVM.firstorder.ipynb",
+        "output": "./output/mask5/10p/kernel4/SVM.firstorder.ipynb",
         "params": {
-            "datasetPath": "dataset/10p/firstorder/kernel4/",
+            "datasetPath": "dataset/mask5/10p/firstorder/kernel4/",
         }
     },
     {
         "input": "Train.SVM.ipynb",
-        "output": "./output/10p/kernel4/SVM.glcm.ipynb",
+        "output": "./output/mask5/10p/kernel4/SVM.glcm.ipynb",
         "params": {
-            "datasetPath": "dataset/10p/glcm/kernel4/",
+            "datasetPath": "dataset/mask5/10p/glcm/kernel4/",
         }
     },
     {
         "input": "Train.SVM.ipynb",
-        "output": "./output/10p/kernel4/SVM.gldm.ipynb",
+        "output": "./output/mask5/10p/kernel4/SVM.gldm.ipynb",
         "params": {
-            "datasetPath": "dataset/10p/gldm/kernel4/",
+            "datasetPath": "dataset/mask5/10p/gldm/kernel4/",
         }
     },
     {
         "input": "Train.SVM.ipynb",
-        "output": "./output/10p/kernel4/SVM.glrlm.ipynb",
+        "output": "./output/mask5/10p/kernel4/SVM.glrlm.ipynb",
         "params": {
-            "datasetPath": "dataset/10p/glrlm/kernel4/",
+            "datasetPath": "dataset/mask5/10p/glrlm/kernel4/",
         }
     },
     {
         "input": "Train.SVM.ipynb",
-        "output": "./output/10p/kernel4/SVM.glszm.ipynb",
+        "output": "./output/mask5/10p/kernel4/SVM.glszm.ipynb",
         "params": {
-            "datasetPath": "dataset/10p/glszm/kernel4/",
+            "datasetPath": "dataset/mask5/10p/glszm/kernel4/",
         }
     },
     {
         "input": "Train.SVM.ipynb",
-        "output": "./output/10p/kernel4/SVM.ngtdm.ipynb",
+        "output": "./output/mask5/10p/kernel4/SVM.ngtdm.ipynb",
         "params": {
-            "datasetPath": "dataset/10p/ngtdm/kernel4/",
+            "datasetPath": "dataset/mask5/10p/ngtdm/kernel4/",
         }
     },
 ]
