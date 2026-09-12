@@ -1,18 +1,4 @@
 notebook,class,kernel,model,accuracy,precision,recall,f1,mcc,roc_auc,pr_auc,confusion_matrix,support_0,support_1,cpu_total_time
-GradientBoostedTreesModel.all.ipynb,all,kernel4,GradientBoostedTreesModel,0.9629,0.7827,0.861,0.82,0.8005,0.9749,0.8926,"[[3671 98]
- [57 353]]",3769,410,41.1 s
-GradientBoostedTreesModel.firstorder.ipynb,firstorder,kernel4,GradientBoostedTreesModel,0.956,0.7354,0.861,0.7933,0.7718,0.9552,0.881,"[[3642 127]
- [57 353]]",3769,410,13.7 s
-GradientBoostedTreesModel.glcm.ipynb,glcm,kernel4,GradientBoostedTreesModel,0.9603,0.7618,0.8659,0.8105,0.7904,0.9727,0.8845,"[[3658 111]
- [55 355]]",3769,410,31.4 s
-GradientBoostedTreesModel.gldm.ipynb,gldm,kernel4,GradientBoostedTreesModel,0.9617,0.7815,0.8463,0.8126,0.7921,0.9609,0.8751,"[[3672 97]
- [63 347]]",3769,410,12.4 s
-GradientBoostedTreesModel.glrlm.ipynb,glrlm,kernel4,GradientBoostedTreesModel,0.962,0.7833,0.8463,0.8136,0.7932,0.9652,0.863,"[[3673 96]
- [63 347]]",3769,410,12 s
-GradientBoostedTreesModel.glszm.ipynb,glszm,kernel4,GradientBoostedTreesModel,0.9548,0.7356,0.8415,0.785,0.762,0.9643,0.8669,"[[3645 124]
- [65 345]]",3769,410,14.3 s
-GradientBoostedTreesModel.ngtdm.ipynb,ngtdm,kernel4,GradientBoostedTreesModel,0.9529,0.753,0.7732,0.7629,0.7368,0.9469,0.7918,"[[3665 104]
- [93 317]]",3769,410,9.57 s
 RandomForest.all.ipynb,all,kernel4,RandomForest,0.9646,0.856,0.7683,0.8098,0.7917,0.98,0.8997,"[[3716 53]
  [95 315]]",3769,410,21.2 s
 RandomForest.firstorder.ipynb,firstorder,kernel4,RandomForest,0.9617,0.8019,0.8098,0.8058,0.7846,0.9614,0.8654,"[[3687 82]
@@ -41,3 +27,17 @@ SVM.glszm.ipynb,glszm,kernel4,SVM,0.9591,0.877,0.678,0.7648,0.7502,0.9668,0.861,
  [132 278]]",3769,410,6.88 s
 SVM.ngtdm.ipynb,ngtdm,kernel4,SVM,0.9146,0.7345,0.2024,0.3174,0.3567,0.9292,0.5969,"[[3739 30]
  [327 83]]",3769,410,10.8 s
+XGBoost.all.ipynb,all,kernel4,XGBoost,0.9682,0.8085,0.8854,0.8452,0.8285,0.9792,0.9102,"[[3683 86]
+ [47 363]]",3769,410,52.9 s
+XGBoost.firstorder.ipynb,firstorder,kernel4,XGBoost,0.9596,0.7835,0.8122,0.7976,0.7753,0.9537,0.8678,"[[3677 92]
+ [77 333]]",3769,410,11.6 s
+XGBoost.glcm.ipynb,glcm,kernel4,XGBoost,0.9636,0.778,0.8805,0.8261,0.8078,0.9774,0.9012,"[[3666 103]
+ [49 361]]",3769,410,13.4 s
+XGBoost.gldm.ipynb,gldm,kernel4,XGBoost,0.9617,0.8415,0.7512,0.7938,0.7743,0.9622,0.8682,"[[3711 58]
+ [102 308]]",3769,410,10.7 s
+XGBoost.glrlm.ipynb,glrlm,kernel4,XGBoost,0.9593,0.8125,0.761,0.7859,0.7639,0.9596,0.8522,"[[3697 72]
+ [98 312]]",3769,410,10.8 s
+XGBoost.glszm.ipynb,glszm,kernel4,XGBoost,0.9591,0.831,0.7317,0.7782,0.7576,0.9649,0.8636,"[[3708 61]
+ [110 300]]",3769,410,11.2 s
+XGBoost.ngtdm.ipynb,ngtdm,kernel4,XGBoost,0.955,0.8171,0.6976,0.7526,0.7308,0.9444,0.7847,"[[3705 64]
+ [124 286]]",3769,410,9.2 s

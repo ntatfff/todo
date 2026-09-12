@@ -5,6 +5,7 @@ pandas==1.2.3
 matplotlib
 tensorflow_decision_forests==1.8.1
 scikit-learn
+xgboost
 monai
 torchio
 nibabel
