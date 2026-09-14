@@ -2,112 +2,22 @@ import papermill as pm
 
 # Định nghĩa danh sách notebook kèm theo tham số riêng cho từng file
 tasks = [
-    {
+        {
         "input": "RadiomicsFeatureExtractor.ipynb",
-        "output": "./output/RadiomicsFeatureExtractor/kernel4/firstorder/RadiomicsFeatureExtractor.tumor.ipynb",
+        "output": "./output/RadiomicsFeatureExtractor/kernel5/glcm/RadiomicsFeatureExtractor.non_tumor.ipynb",
         "params": {
-            "kernel": 4, 
-            "className": "firstorder",
-            "typeOfVoxel": "tumor"
-        }
-    },
-    {
-        "input": "RadiomicsFeatureExtractor.ipynb",
-        "output": "./output/RadiomicsFeatureExtractor/kernel4/glcm/RadiomicsFeatureExtractor.tumor.ipynb",
-        "params": {
-            "kernel": 4, 
-            "className": "glcm",
-            "typeOfVoxel": "tumor"
-        }
-    },
-    {
-        "input": "RadiomicsFeatureExtractor.ipynb",
-        "output": "./output/RadiomicsFeatureExtractor/kernel4/gldm/RadiomicsFeatureExtractor.tumor.ipynb",
-        "params": {
-            "kernel": 4, 
-            "className": "gldm",
-            "typeOfVoxel": "tumor"
-        }
-    },
-    {
-        "input": "RadiomicsFeatureExtractor.ipynb",
-        "output": "./output/RadiomicsFeatureExtractor/kernel4/glrlm/RadiomicsFeatureExtractor.tumor.ipynb",
-        "params": {
-            "kernel": 4, 
-            "className": "glrlm",
-            "typeOfVoxel": "tumor"
-        }
-    },
-    {
-        "input": "RadiomicsFeatureExtractor.ipynb",
-        "output": "./output/RadiomicsFeatureExtractor/kernel4/glszm/RadiomicsFeatureExtractor.tumor.ipynb",
-        "params": {
-            "kernel": 4, 
-            "className": "glszm",
-            "typeOfVoxel": "tumor"
-        }
-    },
-    {
-        "input": "RadiomicsFeatureExtractor.ipynb",
-        "output": "./output/RadiomicsFeatureExtractor/kernel4/ngtdm/RadiomicsFeatureExtractor.tumor.ipynb",
-        "params": {
-            "kernel": 4, 
-            "className": "ngtdm",
-            "typeOfVoxel": "tumor"
-        }
-    },
-    {
-        "input": "RadiomicsFeatureExtractor.ipynb",
-        "output": "./output/RadiomicsFeatureExtractor/kernel4/firstorder/RadiomicsFeatureExtractor.non_tumor.ipynb",
-        "params": {
-            "kernel": 4, 
-            "className": "firstorder",
-            "typeOfVoxel": "non_tumor"
-        }
-    },
-    {
-        "input": "RadiomicsFeatureExtractor.ipynb",
-        "output": "./output/RadiomicsFeatureExtractor/kernel4/glcm/RadiomicsFeatureExtractor.non_tumor.ipynb",
-        "params": {
-            "kernel": 4, 
+            "kernel": 5, 
             "className": "glcm",
             "typeOfVoxel": "non_tumor"
         }
     },
     {
         "input": "RadiomicsFeatureExtractor.ipynb",
-        "output": "./output/RadiomicsFeatureExtractor/kernel4/gldm/RadiomicsFeatureExtractor.non_tumor.ipynb",
+        "output": "./output/RadiomicsFeatureExtractor/kernel5/glcm/RadiomicsFeatureExtractor.tumor.ipynb",
         "params": {
-            "kernel": 4, 
-            "className": "gldm",
-            "typeOfVoxel": "non_tumor"
-        }
-    },
-    {
-        "input": "RadiomicsFeatureExtractor.ipynb",
-        "output": "./output/RadiomicsFeatureExtractor/kernel4/glrlm/RadiomicsFeatureExtractor.non_tumor.ipynb",
-        "params": {
-            "kernel": 4, 
-            "className": "glrlm",
-            "typeOfVoxel": "non_tumor"
-        }
-    },
-    {
-        "input": "RadiomicsFeatureExtractor.ipynb",
-        "output": "./output/RadiomicsFeatureExtractor/kernel4/glszm/RadiomicsFeatureExtractor.non_tumor.ipynb",
-        "params": {
-            "kernel": 4, 
-            "className": "glszm",
-            "typeOfVoxel": "non_tumor"
-        }
-    },
-    {
-        "input": "RadiomicsFeatureExtractor.ipynb",
-        "output": "./output/RadiomicsFeatureExtractor/kernel4/ngtdm/RadiomicsFeatureExtractor.non_tumor.ipynb",
-        "params": {
-            "kernel": 4, 
-            "className": "ngtdm",
-            "typeOfVoxel": "non_tumor"
+            "kernel": 5, 
+            "className": "glcm",
+            "typeOfVoxel": "tumor"
         }
     },
 ]
