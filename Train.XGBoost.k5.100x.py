@@ -2,25 +2,88 @@ import papermill as pm
 
 # Định nghĩa danh sách notebook kèm theo tham số riêng cho từng file
 tasks = [
+    # {
+    #     "input": "Train.XGBoost.ipynb",
+    #     "output": "./output/kernel5/XGBoost.glcm.100p.ipynb",
+    #     "params": {
+    #         "datasetPath": "dataset/100p/glcm/kernel5/",
+    #     }
+    # },
+    # {
+    #     "input": "Train.XGBoost.ipynb",
+    #     "output": "./output/kernel5/XGBoost.glcm.200p.ipynb",
+    #     "params": {
+    #         "datasetPath": "dataset/200p/glcm/kernel5/",
+    #     }
+    # },
+    # {
+    #     "input": "Train.XGBoost.ipynb",
+    #     "output": "./output/kernel5/XGBoost.glcm.300p.ipynb",
+    #     "params": {
+    #         "datasetPath": "dataset/300p/glcm/kernel5/",
+    #     }
+    # },
     {
         "input": "Train.XGBoost.ipynb",
-        "output": "./output/kernel5/XGBoost.glcm.100p.ipynb",
+        "output": "./output/kernel5/XGBoost.glcm.400p.ipynb",
         "params": {
-            "datasetPath": "dataset/100p/glcm/kernel5/",
+            "datasetPath": "dataset/400p/glcm/kernel5/",
         }
     },
     {
         "input": "Train.XGBoost.ipynb",
-        "output": "./output/kernel5/XGBoost.glcm.200p.ipynb",
+        "output": "./output/kernel5/XGBoost.glcm.500p.ipynb",
         "params": {
-            "datasetPath": "dataset/200p/glcm/kernel5/",
+            "datasetPath": "dataset/500p/glcm/kernel5/",
         }
     },
     {
         "input": "Train.XGBoost.ipynb",
-        "output": "./output/kernel5/XGBoost.glcm.300p.ipynb",
+        "output": "./output/kernel5/XGBoost.glcm.600p.ipynb",
         "params": {
-            "datasetPath": "dataset/300p/glcm/kernel5/",
+            "datasetPath": "dataset/600p/glcm/kernel5/",
+        }
+    },
+    {
+        "input": "Train.XGBoost.ipynb",
+        "output": "./output/kernel5/XGBoost.glcm.700p.ipynb",
+        "params": {
+            "datasetPath": "dataset/700p/glcm/kernel5/",
+        }
+    },
+    {
+        "input": "Train.XGBoost.ipynb",
+        "output": "./output/kernel5/XGBoost.glcm.800p.ipynb",
+        "params": {
+            "datasetPath": "dataset/800p/glcm/kernel5/",
+        }
+    },
+    {
+        "input": "Train.XGBoost.ipynb",
+        "output": "./output/kernel5/XGBoost.glcm.900p.ipynb",
+        "params": {
+            "datasetPath": "dataset/900p/glcm/kernel5/",
+        }
+    },
+    {
+        "input": "Train.XGBoost.ipynb",
+        "output": "./output/kernel5/XGBoost.glcm.1000p.ipynb",
+        "params": {
+            "datasetPath": "dataset/1000p/glcm/kernel5/",
+        }
+    },
+    {
+        "input": "Train.XGBoost.ipynb",
+        "output": "./output/kernel5/XGBoost.glcm.1100p.ipynb",
+        "params": {
+            "datasetPath": "dataset/1100p/glcm/kernel5/",
+        }
+    },
+    {
+        "input": "Train.XGBoost.ipynb",
+        "output": "./output/kernel5/XGBoost.glcm.1200p.ipynb",
+        "params": {
+            "datasetPath": "dataset/1200p/glcm/kernel5/",
         }
     },
 ]

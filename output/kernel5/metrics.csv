@@ -1,7 +1,25 @@
 notebook,class,kernel,model,accuracy,precision,recall,f1,mcc,roc_auc,pr_auc,confusion_matrix,support_0,support_1,cpu_total_time
+XGBoost.glcm.1000p.ipynb,glcm,kernel5,XGBoost,0.9133,0.4029,0.9054,0.5576,0.5698,0.9681,0.7718,"[[186571 17586]
+ [1240 11866]]",204157,13106,6 min
 XGBoost.glcm.100p.ipynb,glcm,kernel5,XGBoost,0.9273,0.5811,0.6437,0.6108,0.5717,0.9306,0.6841,"[[18683 883]
  [678 1225]]",19566,1903,47.1 s
+XGBoost.glcm.1100p.ipynb,glcm,kernel5,XGBoost,0.8796,0.353,0.9062,0.5081,0.5202,0.9573,0.7581,"[[195134 27195]
+ [1536 14836]]",222329,16372,6 min
+XGBoost.glcm.1200p.ipynb,glcm,kernel5,XGBoost,0.8211,0.2699,0.9035,0.4156,0.433,0.9408,0.7278,"[[197848 44945]
+ [1775 16615]]",242793,18390,8 min
 XGBoost.glcm.200p.ipynb,glcm,kernel5,XGBoost,0.9457,0.5018,0.7967,0.6158,0.6064,0.9636,0.7059,"[[40307 1930]
  [496 1944]]",42237,2440,1 min
 XGBoost.glcm.300p.ipynb,glcm,kernel5,XGBoost,0.9502,0.5472,0.8538,0.6669,0.66,0.9735,0.7625,"[[59715 2736]
  [566 3306]]",62451,3872,2 min
+XGBoost.glcm.400p.ipynb,glcm,kernel5,XGBoost,0.9272,0.4861,0.8553,0.6199,0.6115,0.9618,0.7832,"[[79505 5751]
+ [920 5439]]",85256,6359,2 min
+XGBoost.glcm.500p.ipynb,glcm,kernel5,XGBoost,0.8967,0.377,0.8656,0.5252,0.5294,0.9516,0.75,"[[96194 10819]
+ [1016 6546]]",107013,7562,2 min
+XGBoost.glcm.600p.ipynb,glcm,kernel5,XGBoost,0.8903,0.3622,0.9152,0.519,0.5346,0.9637,0.7904,"[[113622 14252]
+ [750 8092]]",127874,8842,3 min
+XGBoost.glcm.700p.ipynb,glcm,kernel5,XGBoost,0.8919,0.3701,0.9,0.5245,0.5354,0.9584,0.688,"[[130532 15918]
+ [1039 9353]]",146450,10392,4 min
+XGBoost.glcm.800p.ipynb,glcm,kernel5,XGBoost,0.9345,0.509,0.8916,0.648,0.6444,0.9708,0.8054,"[[151716 10087]
+ [1271 10456]]",161803,11727,4 min
+XGBoost.glcm.900p.ipynb,glcm,kernel5,XGBoost,0.9194,0.4397,0.8829,0.587,0.589,0.9634,0.7721,"[[165427 14002]
+ [1457 10988]]",179429,12445,5 min
