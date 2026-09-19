@@ -49,5 +49,7 @@ XGBoost.1200p.threshold092.ipynb,threshold092,kernel5,XGBoost,0.9533,0.6716,0.65
  [6263 12127]]",242793,18390,7 min
 XGBoost.1200p.threshold093.ipynb,threshold093,kernel5,XGBoost,0.9551,0.6988,0.6359,0.6659,0.6427,0.9408,0.7278,"[[237752 5041]
  [6695 11695]]",242793,18390,7 min
+XGBoost.1200p.threshold094.ipynb,threshold094,kernel5,XGBoost,0.9564,0.7285,0.6069,0.6621,0.6421,0.9408,0.7278,"[[238634 4159]
+ [7230 11160]]",242793,18390,7 min
 XGBoost.1200p.threshold095.ipynb,threshold095,kernel5,XGBoost,0.9574,0.764,0.5721,0.6543,0.6396,0.9408,0.7278,"[[239543 3250]
  [7869 10521]]",242793,18390,7 min
