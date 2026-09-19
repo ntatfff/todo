@@ -4,50 +4,106 @@ import papermill as pm
 tasks = [
     {
         "input": "Train.XGBoost.1200p.thresholdX.ipynb",
-        "output": "./output/thresholdX/kernel5/XGBoost.1200p.threshold050.ipynb",
+        "output": "./output/thresholdX/kernel5/XGBoost.1200p.threshold005.ipynb",
         "params": {
             "datasetPath": "dataset/1200p/glcm/kernel5/",
-            "threshold": 0.50
+            "threshold": 0.05
         }
     },
     {
         "input": "Train.XGBoost.1200p.thresholdX.ipynb",
-        "output": "./output/thresholdX/kernel5/XGBoost.1200p.threshold055.ipynb",
+        "output": "./output/thresholdX/kernel5/XGBoost.1200p.threshold010.ipynb",
         "params": {
             "datasetPath": "dataset/1200p/glcm/kernel5/",
-            "threshold": 0.55
+            "threshold": 0.10
         }
     },
     {
         "input": "Train.XGBoost.1200p.thresholdX.ipynb",
-        "output": "./output/thresholdX/kernel5/XGBoost.1200p.threshold060.ipynb",
+        "output": "./output/thresholdX/kernel5/XGBoost.1200p.threshold015.ipynb",
         "params": {
             "datasetPath": "dataset/1200p/glcm/kernel5/",
-            "threshold": 0.60
+            "threshold": 0.15
         }
     },
     {
         "input": "Train.XGBoost.1200p.thresholdX.ipynb",
-        "output": "./output/thresholdX/kernel5/XGBoost.1200p.threshold065.ipynb",
+        "output": "./output/thresholdX/kernel5/XGBoost.1200p.threshold020.ipynb",
         "params": {
             "datasetPath": "dataset/1200p/glcm/kernel5/",
-            "threshold": 0.65
+            "threshold": 0.20
         }
     },
     {
         "input": "Train.XGBoost.1200p.thresholdX.ipynb",
-        "output": "./output/thresholdX/kernel5/XGBoost.1200p.threshold070.ipynb",
+        "output": "./output/thresholdX/kernel5/XGBoost.1200p.threshold025.ipynb",
         "params": {
             "datasetPath": "dataset/1200p/glcm/kernel5/",
-            "threshold": 0.70
+            "threshold": 0.25
         }
     },
     {
         "input": "Train.XGBoost.1200p.thresholdX.ipynb",
-        "output": "./output/thresholdX/kernel5/XGBoost.1200p.threshold075.ipynb",
+        "output": "./output/thresholdX/kernel5/XGBoost.1200p.threshold030.ipynb",
         "params": {
             "datasetPath": "dataset/1200p/glcm/kernel5/",
-            "threshold": 0.75
+            "threshold": 0.30
+        }
+    },
+    {
+        "input": "Train.XGBoost.1200p.thresholdX.ipynb",
+        "output": "./output/thresholdX/kernel5/XGBoost.1200p.threshold035.ipynb",
+        "params": {
+            "datasetPath": "dataset/1200p/glcm/kernel5/",
+            "threshold": 0.35
+        }
+    },
+    {
+        "input": "Train.XGBoost.1200p.thresholdX.ipynb",
+        "output": "./output/thresholdX/kernel5/XGBoost.1200p.threshold040.ipynb",
+        "params": {
+            "datasetPath": "dataset/1200p/glcm/kernel5/",
+            "threshold": 0.40
+        }
+    },
+    {
+        "input": "Train.XGBoost.1200p.thresholdX.ipynb",
+        "output": "./output/thresholdX/kernel5/XGBoost.1200p.threshold045.ipynb",
+        "params": {
+            "datasetPath": "dataset/1200p/glcm/kernel5/",
+            "threshold": 0.45
+        }
+    },
+    {
+        "input": "Train.XGBoost.1200p.thresholdX.ipynb",
+        "output": "./output/thresholdX/kernel5/XGBoost.1200p.threshold080.ipynb",
+        "params": {
+            "datasetPath": "dataset/1200p/glcm/kernel5/",
+            "threshold": 0.80
+        }
+    },
+    {
+        "input": "Train.XGBoost.1200p.thresholdX.ipynb",
+        "output": "./output/thresholdX/kernel5/XGBoost.1200p.threshold085.ipynb",
+        "params": {
+            "datasetPath": "dataset/1200p/glcm/kernel5/",
+            "threshold": 0.85
+        }
+    },
+    {
+        "input": "Train.XGBoost.1200p.thresholdX.ipynb",
+        "output": "./output/thresholdX/kernel5/XGBoost.1200p.threshold090.ipynb",
+        "params": {
+            "datasetPath": "dataset/1200p/glcm/kernel5/",
+            "threshold": 0.90
+        }
+    },
+    {
+        "input": "Train.XGBoost.1200p.thresholdX.ipynb",
+        "output": "./output/thresholdX/kernel5/XGBoost.1200p.threshold095.ipynb",
+        "params": {
+            "datasetPath": "dataset/1200p/glcm/kernel5/",
+            "threshold": 0.95
         }
     },
 ]
