@@ -1,0 +1,13 @@
+notebook,class,kernel,model,accuracy,precision,recall,f1,mcc,roc_auc,pr_auc,confusion_matrix,support_0,support_1,cpu_total_time
+XGBoost.1200p.threshold050.ipynb,threshold050,kernel5,XGBoost,0.8211,0.2699,0.9035,0.4156,0.433,0.9408,0.7278,"[[197848 44945]
+ [1775 16615]]",242793,18390,8 min
+XGBoost.1200p.threshold055.ipynb,threshold055,kernel5,XGBoost,0.841,0.2934,0.8936,0.4417,0.4554,0.9408,0.7278,"[[203208 39585]
+ [1956 16434]]",242793,18390,8 min
+XGBoost.1200p.threshold060.ipynb,threshold060,kernel5,XGBoost,0.8596,0.3198,0.8821,0.4694,0.4786,0.9408,0.7278,"[[208293 34500]
+ [2169 16221]]",242793,18390,8 min
+XGBoost.1200p.threshold065.ipynb,threshold065,kernel5,XGBoost,0.8777,0.3512,0.8695,0.5003,0.5043,0.9408,0.7278,"[[213254 29539]
+ [2399 15991]]",242793,18390,8 min
+XGBoost.1200p.threshold070.ipynb,threshold070,kernel5,XGBoost,0.8943,0.3863,0.8519,0.5316,0.5294,0.9408,0.7278,"[[217904 24889]
+ [2723 15667]]",242793,18390,9 min
+XGBoost.1200p.threshold075.ipynb,threshold075,kernel5,XGBoost,0.9099,0.4279,0.83,0.5647,0.5557,0.9408,0.7278,"[[222387 20406]
+ [3127 15263]]",242793,18390,8 min
