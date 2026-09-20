@@ -11,3 +11,4 @@ torchio
 nibabel
 tensorflow==2.15.1
 tensorflow_datasets
+tf-keras==2.15.0
