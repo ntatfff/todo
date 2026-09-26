@@ -3,59 +3,73 @@ import papermill as pm
 # Định nghĩa danh sách notebook kèm theo tham số riêng cho từng file
 tasks = [
     {
-        "input": "nrrd2csv.glcm.ipynb",
+        "input": "nrrd2csv.glcm.test.ipynb",
+        "output": "./output/nrrd2csv/nrrd2csv.glcm.ipynb",
+        "params": {
+            "batchSize": 100,
+        }
+    },
+    {
+        "input": "nrrd2csv.glcm.test.ipynb",
+        "output": "./output/nrrd2csv/nrrd2csv.glcm.ipynb",
+        "params": {
+            "batchSize": 200,
+        }
+    },
+    {
+        "input": "nrrd2csv.glcm.test.ipynb",
+        "output": "./output/nrrd2csv/nrrd2csv.glcm.ipynb",
+        "params": {
+            "batchSize": 300,
+        }
+    },
+    {
+        "input": "nrrd2csv.glcm.test.ipynb",
+        "output": "./output/nrrd2csv/nrrd2csv.glcm.ipynb",
+        "params": {
+            "batchSize": 400,
+        }
+    },
+    {
+        "input": "nrrd2csv.glcm.test.ipynb",
         "output": "./output/nrrd2csv/nrrd2csv.glcm.ipynb",
         "params": {
             "batchSize": 500,
         }
     },
     {
-        "input": "nrrd2csv.glcm.ipynb",
+        "input": "nrrd2csv.glcm.test.ipynb",
         "output": "./output/nrrd2csv/nrrd2csv.glcm.ipynb",
         "params": {
             "batchSize": 600,
         }
     },
     {
-        "input": "nrrd2csv.glcm.ipynb",
+        "input": "nrrd2csv.glcm.test.ipynb",
         "output": "./output/nrrd2csv/nrrd2csv.glcm.ipynb",
         "params": {
             "batchSize": 700,
         }
     },
     {
-        "input": "nrrd2csv.glcm.ipynb",
+        "input": "nrrd2csv.glcm.test.ipynb",
         "output": "./output/nrrd2csv/nrrd2csv.glcm.ipynb",
         "params": {
             "batchSize": 800,
         }
     },
     {
-        "input": "nrrd2csv.glcm.ipynb",
+        "input": "nrrd2csv.glcm.test.ipynb",
         "output": "./output/nrrd2csv/nrrd2csv.glcm.ipynb",
         "params": {
             "batchSize": 900,
         }
     },
     {
-        "input": "nrrd2csv.glcm.ipynb",
+        "input": "nrrd2csv.glcm.test.ipynb",
         "output": "./output/nrrd2csv/nrrd2csv.glcm.ipynb",
         "params": {
             "batchSize": 1000,
-        }
-    },
-    {
-        "input": "nrrd2csv.glcm.ipynb",
-        "output": "./output/nrrd2csv/nrrd2csv.glcm.ipynb",
-        "params": {
-            "batchSize": 1100,
-        }
-    },
-    {
-        "input": "nrrd2csv.glcm.ipynb",
-        "output": "./output/nrrd2csv/nrrd2csv.glcm.ipynb",
-        "params": {
-            "batchSize": 1200,
         }
     },
 ]
