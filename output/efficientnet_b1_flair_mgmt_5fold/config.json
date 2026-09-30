@@ -1,0 +1,20 @@
+{
+  "spatial_size_dhw": [
+    64,
+    256,
+    256
+  ],
+  "batch_size": 4,
+  "epochs": 30,
+  "learning_rate": 0.001,
+  "weight_decay": 0.01,
+  "model": "3D EfficientNet-B1",
+  "modality": "FLAIR",
+  "optimizer": "AdamW",
+  "loss": "BCEWithLogitsLoss",
+  "n_splits": 5,
+  "seed": 42,
+  "num_workers": 2,
+  "use_amp": false,
+  "augmentation": false
+}
