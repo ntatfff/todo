@@ -1,0 +1,37 @@
+{
+  "pyradiomics_version": "v3.1.0",
+  "settings": {
+    "minimumROIDimensions": 2,
+    "minimumROISize": null,
+    "normalize": false,
+    "normalizeScale": 1,
+    "removeOutliers": null,
+    "resampledPixelSpacing": null,
+    "interpolator": "sitkBSpline",
+    "preCrop": false,
+    "padDistance": 5,
+    "distances": [
+      1
+    ],
+    "force2D": false,
+    "force2Ddimension": 0,
+    "resegmentRange": null,
+    "label": 1,
+    "additionalInfo": true,
+    "kernelRadius": 5,
+    "maskedKernel": false,
+    "voxelBatch": 1000
+  },
+  "enabledFeatures": {
+    "firstorder": [],
+    "glcm": [],
+    "gldm": [],
+    "glrlm": [],
+    "glszm": [],
+    "ngtdm": [],
+    "shape": []
+  },
+  "enabledImagetypes": {
+    "Original": {}
+  }
+}

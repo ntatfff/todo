@@ -6,7 +6,7 @@ tasks = [
         "input": "RadiomicsFeatureExtractor.ipynb",
         "output": "./output/RadiomicsFeatureExtractor/kernel5/glcm/RadiomicsFeatureExtractor.non_tumor.ipynb",
         "params": {
-            "kernel": 5,
+            "kernel": 1,
             "className": "firstorder",
             "typeOfVoxel": "non_tumor"
         }
@@ -15,7 +15,7 @@ tasks = [
         "input": "RadiomicsFeatureExtractor.ipynb",
         "output": "./output/RadiomicsFeatureExtractor/kernel5/glcm/RadiomicsFeatureExtractor.tumor.ipynb",
         "params": {
-            "kernel": 5,
+            "kernel": 1,
             "className": "firstorder",
             "typeOfVoxel": "tumor"
         }
@@ -24,7 +24,7 @@ tasks = [
         "input": "RadiomicsFeatureExtractor.ipynb",
         "output": "./output/RadiomicsFeatureExtractor/kernel5/glcm/RadiomicsFeatureExtractor.non_tumor.ipynb",
         "params": {
-            "kernel": 5,
+            "kernel": 1,
             "className": "gldm",
             "typeOfVoxel": "non_tumor"
         }
@@ -33,7 +33,7 @@ tasks = [
         "input": "RadiomicsFeatureExtractor.ipynb",
         "output": "./output/RadiomicsFeatureExtractor/kernel5/glcm/RadiomicsFeatureExtractor.tumor.ipynb",
         "params": {
-            "kernel": 5,
+            "kernel": 1,
             "className": "gldm",
             "typeOfVoxel": "tumor"
         }
@@ -42,7 +42,25 @@ tasks = [
         "input": "RadiomicsFeatureExtractor.ipynb",
         "output": "./output/RadiomicsFeatureExtractor/kernel5/glcm/RadiomicsFeatureExtractor.non_tumor.ipynb",
         "params": {
-            "kernel": 5,
+            "kernel": 1,
+            "className": "glcm",
+            "typeOfVoxel": "non_tumor"
+        }
+    },
+    {
+        "input": "RadiomicsFeatureExtractor.ipynb",
+        "output": "./output/RadiomicsFeatureExtractor/kernel5/glcm/RadiomicsFeatureExtractor.tumor.ipynb",
+        "params": {
+            "kernel": 1,
+            "className": "glcm",
+            "typeOfVoxel": "tumor"
+        }
+    },
+    {
+        "input": "RadiomicsFeatureExtractor.ipynb",
+        "output": "./output/RadiomicsFeatureExtractor/kernel5/glcm/RadiomicsFeatureExtractor.non_tumor.ipynb",
+        "params": {
+            "kernel": 1,
             "className": "glrlm",
             "typeOfVoxel": "non_tumor"
         }
@@ -51,7 +69,7 @@ tasks = [
         "input": "RadiomicsFeatureExtractor.ipynb",
         "output": "./output/RadiomicsFeatureExtractor/kernel5/glcm/RadiomicsFeatureExtractor.tumor.ipynb",
         "params": {
-            "kernel": 5,
+            "kernel": 1,
             "className": "glrlm",
             "typeOfVoxel": "tumor"
         }
@@ -60,7 +78,7 @@ tasks = [
         "input": "RadiomicsFeatureExtractor.ipynb",
         "output": "./output/RadiomicsFeatureExtractor/kernel5/glcm/RadiomicsFeatureExtractor.non_tumor.ipynb",
         "params": {
-            "kernel": 5,
+            "kernel": 1,
             "className": "glszm",
             "typeOfVoxel": "non_tumor"
         }
@@ -69,7 +87,7 @@ tasks = [
         "input": "RadiomicsFeatureExtractor.ipynb",
         "output": "./output/RadiomicsFeatureExtractor/kernel5/glcm/RadiomicsFeatureExtractor.tumor.ipynb",
         "params": {
-            "kernel": 5,
+            "kernel": 1,
             "className": "glszm",
             "typeOfVoxel": "tumor"
         }
@@ -78,7 +96,7 @@ tasks = [
         "input": "RadiomicsFeatureExtractor.ipynb",
         "output": "./output/RadiomicsFeatureExtractor/kernel5/glcm/RadiomicsFeatureExtractor.non_tumor.ipynb",
         "params": {
-            "kernel": 5,
+            "kernel": 1,
             "className": "ngtdm",
             "typeOfVoxel": "non_tumor"
         }
@@ -87,7 +105,7 @@ tasks = [
         "input": "RadiomicsFeatureExtractor.ipynb",
         "output": "./output/RadiomicsFeatureExtractor/kernel5/glcm/RadiomicsFeatureExtractor.tumor.ipynb",
         "params": {
-            "kernel": 5,
+            "kernel": 1,
             "className": "ngtdm",
             "typeOfVoxel": "tumor"
         }

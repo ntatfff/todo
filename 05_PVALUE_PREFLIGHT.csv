@@ -1,0 +1,4 @@
+﻿Input,Status,Path/Note
+Balanced OOF,FOUND,/mnt/data/development_oof_predictions.csv
+None OOF,MISSING,
+Patient-level p-value execution,PENDING,Cần cả none và balanced OOF từ Notebook 01
